@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./assets/img/favicon-internet-48.webp" type="image/x-icon" />
+  <title>Integrator-Web-NUCBA</title>
+</head>
+
+<body>
+  <!------------ Navbar ------------>
+  <nav class="navbar">
+    <div class="container-logo">
+      <picture>
+        <source srcset="./assets/img/Logo-Marca-Leo.webp" type="image/webp" />
+        <img loading="lazy" decoding="async" src="./assets/img/Logo-Marca-Leo.png" lazyalt="image" />
+      </picture>
+    </div>
+
+    <!------------ Standard Menu ------------>
+    <div class="standard-menu-container">
+      <a href="./index.html" class="menu-link">HOME</a>
+      <a href="#popular-destinations" class="menu-link">POPULAR DESTINATIONS</a>
+      <a href="#contact" class="menu-link">CONTACT</a>
+      <a href="./login.html" class="menu-link">LOGIN</a>
+      <a href="./register.html" class="menu-link">REGISTER</a>
+    </div>
+
+    <!------------ Hamburger-Menu ------------>
+    <div class="hamburger-menu-container">
+      <a href="./index.html" class="menu-link">HOME</a>
+      <a href="#popular-destinations" class="menu-link">POPULAR DESTINATIONS</a>
+      <a href="#contact" class="menu-link">CONTACT</a>
+      <a href="./login.html" class="menu-link">LOGIN</a>
+      <a href="./register.html" class="menu-link">REGISTER</a>
+    </div>
+
+    <!------------ Hamburger Btn ------------>
+    <button class="hamburger-btn" type="button">
+      <span class="span1"></span>
+      <span class="span2"></span>
+      <span class="span3"></span>
+    </button>
+  </nav>
+
+  <!------------ Front Page ------------>
+  <main class="front-page">
+
+    <div class="main-frontPage-container">
+      <div class="title-container">
+        <h1>Travel With Us</h1>
+      </div>
+
+      <!------------ Search Bar ------------>
+      <form class="search-bar">
+        <div class="container-form-field">
+          <label class="form-label" for="location">Location</label>
+          <input type="text" class="form-input" id="location" placeholder="¿where you travel?" />
+        </div>
+
+        <div class="container-form-field">
+          <label class="form-label" for="departing">Departing</label>
+          <input type="date" class="form-input" id="departing" />
+        </div>
+
+        <div class="container-form-field">
+          <label class="form-label" for="returning">Returning</label>
+          <input type="date" class="form-input" id="returning" />
+        </div>
+
+        <div class="container-form-field">
+          <label class="form-label" for="travelers">Travelers</label>
+          <input type="number" min="1" class="form-input" id="travelers" placeholder="¿Travelers?" />
+        </div>
+
+        <div class="container-form-field search-button">
+          <input type="submit" class="form-submit" value="Search" />
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!------------ Title Container Two ------------>
+  <div id="popular-destinations" class="main-title">
+    <h2>Popular Destinations</h2>
+  </div>
+
+  <!------------ Best Beaches ------------>
+  <section class="best-beaches container-width">
+    <div class="card-container card-container-one">
+      <a class="hashtag-a-img" href="./assets/img/Playa-de-Muro-Alcudia-Mallorca.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Playa-de-Muro-Alcudia-Mallorca.webp" type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Playa-de-Muro-Alcudia-Mallorca.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>
+          Wall Beach Alcudia, Mallorca Spain.
+        </h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn"
+          href="https://www.abc-mallorca.es/playa-de-muro/#:~:text=Situada%20en%20el%20pueblo%20de,turistas%20como%20a%20residentes%20locales. "
+          target="_alt">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-two">
+      <a class="hashtag-a-img" href="./assets/img/Miami-Beach-Florida.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Miami-Beach-Florida.webp" type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Miami-Beach-Florida.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Miami Beach, Florida EEUU</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="#">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-three">
+      <a class="hashtag-a-img" href="./assets/img/Bocas-del-Toro-Panama.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Bocas-del-Toro-Panama.webp" type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Bocas-del-Toro-Panama.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Bocas Del Toro Beach, Panamá</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="#">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-four">
+      <a class="hashtag-a-img" href="./assets/img/Playa-bonita-Las-terrenas-Rep-Dominicana.webp" target="_blank">
+        <picture>
+          <source srcset="
+                ./assets/img/Playa-bonita-Las-terrenas-Rep-Dominicana.webp
+              " type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Playa-bonita-Las-terrenas-Rep-Dominicana.jpg"
+            lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Beautiful Beach Las Terrenas, Rep. Dominicana</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="#">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-five">
+      <a class="hashtag-a-img" href="./assets/img/Playa-de-las-conchas-Espania.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Playa-de-las-conchas-Espania.webp" type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Playa-de-las-conchas-Espania.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Shell Beach, Spain</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="#" target="_alt">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-six">
+      <a class="hashtag-a-img" href="./assets/img/Playas-de-Rosarito-B.C-Mexico.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Playas-de-Rosarito-B.C-Mexico.webp" type="image/webp" />
+          <img loading="lazy" decoding="async" src="./assets/img/Playas-de-Rosarito-B.C-Mexico.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Rosarito Beach, B.C México</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="#" target="_alt">Info</a>
+      </div>
+    </div>
+    <div class="card-container card-container-seven">
+      <a class="hashtag-a-img" href="./assets/img/Playa-de-la-Caleta-Cadiz-Andalucia-SPAIN-Cadiz-Spain.webp" target="_blank">
+        <picture>
+          <source srcset="./assets/img/Playa-de-la-Caleta-Cadiz-Andalucia-SPAIN-Cadiz-Spain.webp" type="image/webp" />
+          <img loading="lazy" decoding="async"
+            src="./assets/img/Playa-de-la-Caleta-Cadiz-Andalucia-SPAIN-Cadiz-Spain.jpg" lazyalt="image" />
+        </picture>
+      </a>
+      <div class="card-info-container">
+        <h3>Caleta Beach, Cádiz Andalucía, Spain</h3>
+      </div>
+      <div class="btn-container">
+        <a class="card-info-btn" href="https://es.wikipedia.org/wiki/Playa_de_La_Caleta_(C%C3%A1diz)"
+          target="_alt">Info</a>
+      </div>
+    </div>
+  </section>
+
+  <!------------ Title Container Three ------------>
+  <div id="contact" class="main-title">
+    <h2>Contact Us</h2>
+  </div>
+
+  <!------------ Contact Us ------------>
+  <section class="contact-section container-width">
+    <div class="container-company-data">
+      <div class="container-title-h3 company-address-global">
+        <h3>City of Buenos Aires, Argentina</h3>
+      </div>
+      <div class="data precise-company-address">
+        <a class="link-data link-location"
+          href="https://www.google.com/maps/place/Gregorio+de+Laferr%C3%A8re+2611,+C1406HFE+CABA/@-34.6375824,-58.463195,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcca2a583f8f51:0xd5bff337260dad48!8m2!3d-34.6375868!4d-58.4610063"
+          target="_alt">
+          <picture>
+            <source srcset="./assets/img/Icono-Location.webp" type="image/webp">
+            <img class="icono-location" loading="lazy" decoding="async" src="./assets/img/Icono-Location.png"
+              lazyalt="image">
+          </picture>
+          <h4>Gregorio de Laferrère 2611, C1406HFE CABA</h4>
+        </a>
+      </div>
+      <div class="data company-mail">
+        <a class="link-data" href="mailto:travelwithus@gmail.com">
+          <picture>
+            <source srcset="./assets/img/Icono-Email.webp" type="image/webp">
+            <img loading="lazy" decoding="async" src="./assets/img/Icono-Email.png" lazyalt="image">
+          </picture>
+          <h4>travelwithus@gmail.com</h4>
+        </a>
+      </div>
+      <div class="data company-phone">
+        <a class="link-data" href="tel:08008013029">
+          <picture>
+            <source srcset="./assets/img/Icono-Phone.webp" type="image/webp">
+            <img loading="lazy" decoding="async" src="./assets/img/Icono-Phone.png" lazyalt="image">
+          </picture>
+          <h4>0800-801-3029</h4>
+        </a>
+      </div>
+    </div>
+
+    <div class="company-location">
+      <div class="container-title-h3 geolocation-of-the-company">
+        <h3>Geolocation</h3>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6777725656366!2d-58.463194983993546!3d-34.637582366799336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2a583f8f51%3A0xd5bff337260dad48!2sGregorio%20de%20Laferr%C3%A8re%202611%2C%20C1406HFE%20CABA!5e0!3m2!1ses-419!2sar!4v1644780919880!5m2!1ses-419!2sar"
+            style="border:0; " allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------ Social networks ------------>
+  <div class="social-networks-container">
+    <div class="social-networks">
+      <a href="https://github.com/leomiracco" target="_blank">
+        <img src="./assets/img/icono-github2.webp" alt="">
+      </a>
+    </div>
+    <div class="social-networks">
+      <a href="https://www.facebook.com/leopoldomiracco/" target="_blank">
+        <img src="./assets/img/icono-facebook2.webp" alt="">
+      </a>
+    </div>
+    <div class="social-networks">
+      <a href="https://www.instagram.com/leomiracco/" target="_blank">
+        <img src="./assets/img/icono-instagram.png" alt="">
+      </a>
+    </div>
+    <div class="social-networks">
+      <a href="https://www.twitter.com/leopoldom23/" target="_blank">
+        <img src="./assets/img/icono-twitter2.webp" alt="">
+      </a>
+    </div>
+    <div class="social-networks">
+      <a href="https://vercel.com/leomiracco" target="_blank">
+        <img src="./assets/img/LogoVercel2.webp" alt="">
+      </a>
+    </div>
+  </div>
+
+  <!------------ Footer ------------>
+  <footer class="footer-page">
+    <div class="footer-content-container">
+      <div class="footer-content container-about-us">
+        <div class="container-h3">
+          <h3>About Us</h3>
+        </div>
+        <div class="list-container">
+          <a href="#" class="list">Our History</a>
+          <a href="#" class="list">Mission</a>
+          <a href="#" class="list">Values</a>
+          <a href="#" class="list">Privacy Policy</a>
+          <a href="#" class="list">Terms of Service</a>
+        </div>
+      </div>
+      <div class="footer-content container-support">
+        <div class="container-h3">
+          <h3>Support</h3>
+        </div>
+        <div class="list-container">
+          <a href="#" class="list">Frequent Questions</a>
+          <a href="#" class="list">Online Help</a>
+          <a href="#" class="list">Trust and Security</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="footer-copyright-container">
+      <picture>
+        <source srcset="./assets/img/Logo-Marca-Leo.webp" type="image/webp" />
+        <img loading="lazy" decoding="async" src="./assets/img/Logo-Marca-Leo.png" lazyalt="image" />
+      </picture>
+      <h5>© Travel With Us - Airlines Group -</h5>
+    </div>
+  </footer>
+
+  <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
