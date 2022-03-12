@@ -694,7 +694,7 @@ img {
     font-size: 2.2rem;
   }
 }
-/************* (1920x1080) **************/
+/************* (1920x1080)H **************/
 @media only screen and (min-width: 1920px) and (height: 1080px){
   .standard-menu-container {
     width: 55%;
@@ -706,6 +706,20 @@ img {
     font-family: var(--font-Rubik-Medium);
     color: var(--color-white);
     font-size: 2.2rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .standard-menu-container {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .standard-menu-container a{
+    text-decoration: none;
+    font-family: var(--font-Rubik-Medium);
+    color: var(--color-white);
+    font-size: 3rem;
   }
 }
 
@@ -796,7 +810,6 @@ img {
     height: 40vh;
   }
 }
-}
 /************* (1024x600)H **************/
 @media only screen and (min-width: 1024px) and (height: 600px){
   .front-page {
@@ -831,6 +844,12 @@ img {
 @media only screen and (min-width: 1920px) and (height: 1080px){
   .front-page {
     height: 60vh;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .front-page {
+    height: 50vh;
   }
 }
 
@@ -945,6 +964,12 @@ img {
     margin: 11rem 1.1rem 9rem 0rem;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .title-container {
+    margin: 15rem 1.1rem 13rem 0rem;
+  }
+}
 
 .title-container h1 {
   text-align: center;
@@ -1023,6 +1048,12 @@ img {
 @media only screen and (min-width: 1920px) and (height: 1080px){
   .title-container h1 {
     font-size: 6rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .title-container h1 {
+    font-size: 8rem;
   }
 }
 
@@ -1151,6 +1182,12 @@ img {
     width: 85%;
     flex-direction: row;
     padding: 1rem 1rem 1rem 1rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .search-bar {
+    width: 50%;
   }
 }
 
@@ -1364,9 +1401,20 @@ img {
     column-gap: 2.5rem;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .best-beaches {
+    width: 80%;
+    min-height: 60rem;
+    max-height: 60rem;
+    column-gap: 5rem;
+  }
+  .container-width{
+    max-width: 80%;
+  }
+}
 
 .card-container {
-  /* border: 1px solid blue; */
   max-width: 85%;
   min-width: 85%;
   height: auto;
@@ -1485,6 +1533,15 @@ img {
     margin-bottom: 0rem;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .card-container {
+    max-width: 60%;
+    min-width: 60%;
+    height: 100%;
+    margin-bottom: 0rem;
+  }
+}
 
 .card-container-seven{
   margin-bottom: 0rem;
@@ -1597,6 +1654,12 @@ img {
 @media only screen and (min-width: 1920px) and (height: 1080px){
   .hashtag-a-img{
     height: 35rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .hashtag-a-img{
+    height: 42rem;
   }
 }
 
@@ -1835,6 +1898,12 @@ img {
 @media only screen and (min-width: 1920px) and (height: 1080px){
   .data a{
     padding-left: 45rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .data a{
+    padding-left: 87rem;
   }
 }
 
@@ -2089,6 +2158,13 @@ img {
     height: 25rem;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .map{
+    width: 60%;
+    height: 35rem;
+  }
+}
 
 .map iframe{
   width: 100%;
@@ -2183,6 +2259,12 @@ img {
 }
 /************* (1920x1080)H **************/
 @media only screen and (min-width: 1920px) and (height: 1080px){
+  .social-networks-container{
+    width: 40%;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
   .social-networks-container{
     width: 40%;
   }
@@ -2330,6 +2412,12 @@ img {
 }
 /************* (1920x1080)H **************/
 @media only screen and (min-width: 1920px) and (height: 1080px){
+  .footer-content-container {
+    column-gap: 30rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
   .footer-content-container {
     column-gap: 30rem;
   }
@@ -2490,6 +2578,12 @@ img {
     width: 12%;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .footer-copyright-container {
+    width: 9%;
+  }
+}
 
 .footer-copyright-container picture{
   display: flex;
@@ -2513,6 +2607,12 @@ img {
 /***************** Navbar *****************/
 .st-menu-cont-register {
   width: 30rem;
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .st-menu-cont-register {
+    width: 55rem;
+  }
 }
 
 /***************** Front Page *****************/
@@ -2664,6 +2764,12 @@ img {
     width: 60%;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .registration-form{
+    width: 35%;
+  }
+}
 
 .registration-form fieldset {
   border: 1px solid var(--color-gray-line);
@@ -2807,6 +2913,12 @@ img {
     padding-left: 13rem;
   }
 }
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .field {
+    padding-left: 13rem;
+  }
+}
 
 .field label {
   flex-basis: 8rem;
@@ -2891,6 +3003,12 @@ img {
 
 .st-menu-cont-login {
   width: 30rem;
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .st-menu-cont-login {
+    width: 55rem;
+  }
 }
 
 .login-home-page{
@@ -3078,6 +3196,12 @@ img {
   .login-section {
     width: 20%;
     margin-top: 10rem;
+  }
+}
+/************* (2560x1440)H **************/
+@media only screen and (min-width: 2560px) and (height: 1440px){
+  .login-section {
+    width: 20%;
   }
 }
 
